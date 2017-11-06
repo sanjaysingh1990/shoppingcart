@@ -1,14 +1,11 @@
 package com.android.tonyvu.sc.demo.model;
 
-import android.util.Log;
-
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.android.tonyvu.sc.model.Addons;
 import com.android.tonyvu.sc.model.Saleable;
 
 public class Product implements Saleable, Serializable {

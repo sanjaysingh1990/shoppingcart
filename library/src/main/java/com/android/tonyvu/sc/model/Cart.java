@@ -7,8 +7,6 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
 
 import com.android.tonyvu.sc.exception.ProductNotFoundException;
 import com.android.tonyvu.sc.exception.QuantityOutOfRangeException;

@@ -10,15 +10,15 @@ public interface Saleable {
     BigDecimal getPrice();
 
     String getName();
-
-    List<Addons> getAddonsItems();
-    void addAddons(List<Addons> list);
-    List<Addons> getLastAddonsItems();
+    int getQuantity();
+    List<Saleable> getAddonsItems();
+    void addAddons(List<Saleable> list);
+    List<Saleable> getLastAddonsItems();
 
     void incrementQuantityByOne();
     void deccrementQuantityByOne();
     void removeAddons();
-    int getQuantity();
+
     String getProductId();
 
 }

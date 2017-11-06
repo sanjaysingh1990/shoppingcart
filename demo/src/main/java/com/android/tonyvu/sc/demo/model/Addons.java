@@ -1,9 +1,11 @@
-package com.android.tonyvu.sc.model;
+package com.android.tonyvu.sc.demo.model;
+
+import com.android.tonyvu.sc.model.SaleableAddon;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public  class Addons implements Serializable
+public  class Addons implements SaleableAddon,Serializable
     {
         public int addonsId;
         public String addonName;
@@ -21,4 +23,18 @@ public  class Addons implements Serializable
             this.addonPrice=addonPrice;
         }
 
+        @Override
+        public BigDecimal getPrice() {
+            return addonPrice;
+        }
+
+        @Override
+        public String getName() {
+            return addonName;
+        }
+
+        @Override
+        public int getQuantity() {
+            return quantity;
+        }
     }

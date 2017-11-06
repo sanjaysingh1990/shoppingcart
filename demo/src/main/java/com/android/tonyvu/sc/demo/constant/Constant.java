@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.android.tonyvu.sc.demo.model.Product;
-import com.android.tonyvu.sc.model.Addons;
+import com.android.tonyvu.sc.demo.model.Addons;
 
 public final class Constant {
     public static final List<Integer> QUANTITY_LIST = new ArrayList<Integer>();

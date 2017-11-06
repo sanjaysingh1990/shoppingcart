@@ -18,7 +18,7 @@ import com.android.tonyvu.sc.demo.adapter.CartItemAdapter;
 import com.android.tonyvu.sc.demo.constant.Constant;
 import com.android.tonyvu.sc.demo.model.CartItem;
 import com.android.tonyvu.sc.demo.model.Product;
-import com.android.tonyvu.sc.model.Addons;
+import com.android.tonyvu.sc.demo.model.Addons;
 import com.android.tonyvu.sc.model.Cart;
 import com.android.tonyvu.sc.model.Saleable;
 import com.android.tonyvu.sc.util.CartHelper;
